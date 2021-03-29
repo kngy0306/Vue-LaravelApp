@@ -20780,7 +20780,6 @@ var actions = {
 };
 /* harmony default export */ __webpack_exports__["default"] = ({
   namespaced: true,
-  //↑のactionsのregisterを呼び出すとき, 'auth/register'と呼べるようになる。
   state: state,
   getters: getters,
   mutations: mutations,

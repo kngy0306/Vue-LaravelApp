@@ -18,7 +18,7 @@ const actions = {
 };
 
 export default {
-  namespaced: true, //↑のactionsのregisterを呼び出すとき, 'auth/register'と呼べるようになる。
+  namespaced: true,
   state,
   getters,
   mutations,

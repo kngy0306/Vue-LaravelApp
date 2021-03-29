@@ -14,3 +14,9 @@ $ composer create-project --prefer-dist "laravel/laravel=6.*" .
 
 ```$ composer create-project --prefer-dist laravel/laravel .```の**--prefer-dist**の意味  
 <img width="40%" alt="スクリーンショット 2021-03-23 0 00 54" src="https://user-images.githubusercontent.com/57553474/112010957-209f3b80-8b6b-11eb-9357-bdd4cabfe2e9.png">
+
+### エラー解決ヒント
+状況: register画面でregisterボタンを押しても期待通りの遷移をしない。
+
+解決方法: 
+<img width="40%" alt="スクリーンショット 2021-03-29 12 32 35" src="https://user-images.githubusercontent.com/57553474/112783798-1c06e580-908b-11eb-9861-418987bf644b.png">
