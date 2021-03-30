@@ -20,3 +20,15 @@ $ composer create-project --prefer-dist "laravel/laravel=6.*" .
 
 解決方法: 
 <img width="40%" alt="スクリーンショット 2021-03-29 12 32 35" src="https://user-images.githubusercontent.com/57553474/112783798-1c06e580-908b-11eb-9861-418987bf644b.png">
+
+
+### Vueのcomputedとmethodsの違い
+computedは算出プロパティで、計算機能付きのプロパティ。データに処理を与え、プロパティにしたいものは、computedを使用する。  
+例）カートの商品の個数を変更すると値段が変わるような処理。
+
+https://dev83.com/vue-computed-methods/
+
+### 論理否定!!
+```js
+const state = !!user; // userがtruthならtrueになる
+```
