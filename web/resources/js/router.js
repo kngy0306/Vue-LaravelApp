@@ -7,6 +7,8 @@ import Login from "./pages/Login.vue";
 
 import store from "./store";
 
+import SystemError from "./pages/errors/System.vue";
+
 // VueRouterプラグインの使用
 Vue.use(VueRouter);
 
@@ -25,6 +27,10 @@ const routes = [
         next();
       }
     }
+  },
+  {
+    path: "/500",
+    component: SystemError
   }
 ];
 
