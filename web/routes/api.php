@@ -25,6 +25,6 @@ Route::post("/logout", "Auth\LoginController@logout")->name("logout");
 // ログインユーザ
 Route::get('/user', fn () => Auth::user())->name('user');
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
